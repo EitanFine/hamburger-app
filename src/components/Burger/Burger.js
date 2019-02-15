@@ -4,10 +4,10 @@ import BurgerIngredient from './BurgerIngredient/BurgerIngredient'
 
 const burger = (props) => {
   return (
-    <div>
+    <div className="Burger">
       <BurgerIngredient type="bread-top" />
       <BurgerIngredient type="cheese" />
-      <BurgerIngredient type="meet" />
+      <BurgerIngredient type="meat" />
       <BurgerIngredient type="bread-bottom" />
     </div>
   )
